@@ -8,7 +8,7 @@ driven by a map input.
 
 ```hcl
 module "pubsub" {
-  source = "github.com/cybercapybara/terraform-google-pubsub"
+  source = "github.com/moveeeax/terraform-google-pubsub"
 
   project_id = var.project_id
   name       = "events"
